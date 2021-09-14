@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "poppins";
+    src: url("fonts/poppins.ttf");
+}
 body {
     margin: 0;
+    font-family: poppins;
 }
 a {
     text-decoration: none;
@@ -27,19 +32,38 @@ header nav ul li a {
 }
 /*********************************************************************************************/
 .profil {
-    padding : 35px 0 35px 40%;
+    padding : 35px 0 35px 36%;
+    display: flex;
 }
-.profil .profil_name{
-    font-size: 20px;
+.profil .titre_profil {
+
+}
+.profil .titre_profil .profil_name{
+    font-size: 23px;
     margin-left: 10px;
+    font-weight: 600;
+    margin-top: 20px;
 }
-.profil .metier {
+.profil .titre_profil .metier {
     color: rgb(39, 76, 243);
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 600;
     
     
 }
 .profil .img_profil {
-   
+    border-radius: 50%;
+    margin-left: 7em;
 }
+/***********************************************************************************************/
+.presentation {
+    background-color: rgb(15, 94, 211) ;
+    padding: 20px 0px 20px 20%;
+    color: #fff;
+}
+.presentation .presentation_titre {
+    font-size: 20px;
+}
+/**********************************************************************************************/
+
