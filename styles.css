@@ -67,3 +67,40 @@ header nav ul li a {
 }
 /**********************************************************************************************/
 
+.experience {
+    width: 50%;
+    margin: auto;
+    padding: 40px 0;
+
+}
+.experience div {
+    margin-bottom: 10px;
+}
+.experience .titre_experience {
+    color:rgb(39, 76, 243);
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+.experience .sous_titre_experience {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+}
+/*******************************************************************/
+.formation{
+    background-color: rgb(15, 94, 211) ;
+    padding: 20px 20%;
+    color: #fff;
+}
+.formation .titre_formation {
+    margin-bottom: 35px;
+    font-size: 21px;
+    font-weight: 600;
+
+}
+.formation .contenu_formation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
