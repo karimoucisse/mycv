@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    background-color: rgb(15, 94, 211);
+    color: #fff;
+    padding: 10px 0 5px 10px;
+    align-items: center;
+
+}
+header div {
+    font-size: 22px;
+}
+header nav ul li{
+    display: inline;
+    list-style: none;
+    padding-left: 30px;
+    
+}
+header nav ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+/*********************************************************************************************/
+.profil {
+    padding : 35px 0 35px 40%;
+}
+.profil .profil_name{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.profil .metier {
+    color: rgb(39, 76, 243);
+    font-size: 15px;
+    margin-top: 10px;
+    
+    
+}
+.profil .img_profil {
+   
+}
