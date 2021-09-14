@@ -119,10 +119,15 @@ footer {
     color: #fff;
     text-decoration: underline;
 }
-footer div {
+footer .blog {
     display: flex;
-    width: 40%;
-    margin-right: 60px;
+    /*width: 40%;*/
+}
+footer .blog div {
+    margin-right: 9em;
+}
+footer .blog div i {
+    margin-right: 20px;
 }
 footer .logo {
     align-items: center;
