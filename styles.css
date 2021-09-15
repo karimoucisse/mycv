@@ -36,13 +36,14 @@ header nav ul li a:hover {
     background-color: #fff;
     color: #0475ba;
     border-radius: 5px;
+    padding: 1px 4px;
     transition: all ease 0.4s;
 }
 /*********************************************************************************************/
 .profil {
-    padding : 35px 0 35px 36%;
+    padding : 40px 0 35px 36%;
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
 }
 .profil .titre_profil .profil_name{
     font-size: 23px;
@@ -117,17 +118,17 @@ header nav ul li a:hover {
 }
 /**************************************************/
 .passions {
-    padding: 35px 25%;
+    padding: 40px 25%;
+    font-weight: 600;
 }
 .passions .titre_passions {
     color: rgb(39, 76, 243);
     font-size: 21px;
-    font-weight: 600;
     margin-bottom: 25px;
 }
 /*******************************************************************************************************/
 footer {
-    padding: 4em 3em;
+    padding: 40px 3em;
     background-color: #0475ba;
     color: #fff;
     text-decoration: underline;
@@ -137,10 +138,7 @@ footer a {
     color: #fff;
 }
 
-/*footer .blog {
-    display: flex;
-    width: 40%;
-}*/
+
 footer .blog div {
     margin-right: 9em;
 }
@@ -192,7 +190,7 @@ footer .logo {
 
     .formation{
         background-color: #0475ba ;
-        padding: 40px 10px 40px 50px;
+        padding: 40px 50px;
         color: #fff;
     }
     .formation .titre_formation {
