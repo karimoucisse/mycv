@@ -11,10 +11,11 @@ a {
 }
 header {
     display: flex;
-    background-color: rgba(12, 75, 168, 0.877);
+    background-color: #0475ba;
     color: #fff;
     padding: 10px 0 5px 10px;
     align-items: center;
+    height: 72px;
 
 }
 header div {
@@ -34,6 +35,7 @@ header nav ul li a {
 .profil {
     padding : 35px 0 35px 36%;
     display: flex;
+    flex-direction: row;
 }
 .profil .titre_profil .profil_name{
     font-size: 23px;
@@ -52,10 +54,12 @@ header nav ul li a {
 .profil .img_profil {
     border-radius: 50%;
     margin-left: 7em;
+    height: 150px;
+    width: 150px;
 }
 /***********************************************************************************************/
 .presentation {
-    background-color: rgba(12, 75, 168, 0.877) ;
+    background-color: #0475ba;
     padding: 40px 0px 40px 25%;
     color: #fff;
     font-weight: 600;
@@ -77,17 +81,18 @@ header nav ul li a {
 .experience .titre_experience {
     color:rgb(39, 76, 243);
     font-weight: 600;
-    margin-bottom: 35px;
+   margin-bottom: 35px;
     font-size: 21px;
 }
 .experience .sous_titre_experience {
     display: flex;
     justify-content: space-between;
     font-weight: 900;
+    font-size: 18px;
 }
 /*******************************************************************/
 .formation{
-    background-color: rgba(12, 75, 168, 0.877) ;
+    background-color: #0475ba ;
     padding: 40px 25%;
     color: #fff;
 }
@@ -115,10 +120,14 @@ header nav ul li a {
 /*******************************************************************************************************/
 footer {
     padding: 4em 3em;
-    background-color: rgba(12, 75, 168, 0.877);
+    background-color: #0475ba;
     color: #fff;
     text-decoration: underline;
 }
+footer a {
+    color: #fff;
+}
+
 footer .blog {
     display: flex;
     /*width: 40%;*/
@@ -131,4 +140,23 @@ footer .blog div i {
 }
 footer .logo {
     align-items: center;
+}
+/*********************************************************************************************************************/
+
+@media screen and (min-width: 780px)
+{
+   
+    .profil {
+        width: 100%;
+        flex-direction: column;
+        padding: auto;
+    }
+    .profil .titre_profil .profil_name{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .profil .img_profil {
+        margin: 20px 0 0 30px;
+    }
 }
