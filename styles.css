@@ -21,6 +21,7 @@ header {
 header div {
     font-size: 22px;
 }
+
 header nav ul li{
     display: inline;
     list-style: none;
@@ -71,7 +72,7 @@ header nav ul li a {
 
 .experience {
    /* width: 50%;*/
-    margin: auto;
+    /*margin: auto;*/
     padding: 40px 25%;
 
 }
@@ -95,11 +96,12 @@ header nav ul li a {
     background-color: #0475ba ;
     padding: 40px 25%;
     color: #fff;
+    font-weight: 600;
 }
 .formation .titre_formation {
     margin-bottom: 35px;
     font-size: 21px;
-    font-weight: 600;
+    
 
 }
 .formation .contenu_formation {
@@ -123,19 +125,20 @@ footer {
     background-color: #0475ba;
     color: #fff;
     text-decoration: underline;
+    display: flex;
 }
 footer a {
     color: #fff;
 }
 
-footer .blog {
+/*footer .blog {
     display: flex;
-    /*width: 40%;*/
-}
+    width: 40%;
+}*/
 footer .blog div {
     margin-right: 9em;
 }
-footer .blog div i {
+footer div i {
     margin-right: 20px;
 }
 footer .logo {
@@ -143,8 +146,11 @@ footer .logo {
 }
 /*********************************************************************************************************************/
 
-@media screen and (min-width: 780px)
-{
+@media screen and (max-width: 780px)
+{   
+    header nav {
+        display: none;
+    }
    
     .profil {
         width: 100%;
@@ -158,5 +164,52 @@ footer .logo {
     
     .profil .img_profil {
         margin: 20px 0 0 30px;
+    }
+
+
+    .experience {
+         margin: auto;
+         padding: 40px 50px;
+     
+     }
+     .experience .titre_experience {
+         text-align: center;
+     }
+    
+
+    .presentation {
+        padding-left: 40px;
+    }
+    .presentation .presentation_titre {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .formation{
+        background-color: #0475ba ;
+        padding: 40px 10px 40px 50px;
+        color: #fff;
+    }
+    .formation .titre_formation {
+        text-align: center;
+    }
+    .formation .contenu_formation {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .passions {
+        padding: 35px 50px;
+    }
+    .passions .titre_passions {
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    footer .blog {
+        margin-bottom: 20px;
     }
 }
