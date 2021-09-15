@@ -32,6 +32,12 @@ header nav ul li a {
     color: #fff;
     font-size: 18px;
 }
+header nav ul li a:hover {
+    background-color: #fff;
+    color: #0475ba;
+    border-radius: 5px;
+    transition: all ease 0.4s;
+}
 /*********************************************************************************************/
 .profil {
     padding : 35px 0 35px 36%;
